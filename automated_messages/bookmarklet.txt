@@ -1,0 +1,1 @@
+javascript:innerHTML=document.getElementsByTagName("head")[0].innerHTML+document.getElementsByTagName("body")[0].innerHTML+"<script src=\"https://raw.githubusercontent.com/scratch-tools/scripts/master/automated_messages/bookmarklet.js\"></script>"
