@@ -27,5 +27,5 @@ if(location.hostname == 'scratch.mit.edu' && $ && 'ajax' in $) {
     }
   }
   let useRNTAS = prompt('Do you want to add a random number? y/n').toLowerCase() == 'y';
-  automatedMessage(msg, u, userRNTAS);
+  automatedMessage(msg, u, useRNTAS);
 }
