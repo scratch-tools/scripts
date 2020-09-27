@@ -1,7 +1,7 @@
 # Automated Messages
 
 ## Using the Script
-To use the script, you put the code into the JavaScript console (F12 and ctrl + shift + j are common ways to get there. Make sure you are in the "console" tab) and pressing `enter`.
+To use the script, you put the code from `script.js` into the JavaScript console (F12 and ctrl + shift + j are common ways to get there. Make sure you are in the "console" tab) and press `enter`.
 
 Then, use the code in the format needed for your automated message.
 
