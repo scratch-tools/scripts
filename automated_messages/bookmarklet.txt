@@ -1,1 +1,1 @@
-javascript:script=document.createElement("script");script.src="//raw.githubusercontent.com/scratch-tools/scripts/master/automated_messages/bookmarklet.js"; void document.getElementsByTagName("head")[0].appendChild(script);
+javascript:script=document.createElement("script");script.src="//scratch-tools.github.io/scripts/automated_messages/bookmarklet.js"; void document.getElementsByTagName("head")[0].appendChild(script);
