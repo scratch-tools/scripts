@@ -6,6 +6,7 @@ if(location.hostname == 'scratch.mit.edu' && $ && 'ajax' in $) {
       const nickname = users[i].nickname;
       $.get('https://api.scratch.mit.edu/users/'+user, b => {
         const id = b.id;
+        if (!user || user == "null" || '' + user == "null") return;
         $.ajax({type: "POST",url: "https://scratch.mit.edu/site-api/comments/user/"+user+"/add/",data: `{"content":"${content.split('USER').join(user).split('NICKNAME').join(nickname) + (rntas?' RNTAS: '+Math.round(Math.random()*100000):'')}","parent_id":null,"commentee_id":null}`}, console.log)
       });
       i++;
